@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oi0Yv5sMa6mfI7amPXol4anG3vXQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "CPI7Wrk6vZQwf49n-w0or73w8p8Us81zgAaLbJDG7r4",
+      useTemplateId: "33fDuDry7DMC-jNE63pM-VWSibwKT_YfnKQnzEPNxNc",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -45,6 +45,7 @@ export const config = {
         //{"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "01-10"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "静静", "year": "2002", "date": "11-26"},
+        {"type": "生日", "name": "亮亮", "year": "2002", "date": "10-23"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "02-21"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
@@ -60,7 +61,7 @@ export const config = {
     {
       name: "亮亮",
       id: "oi0Yv5qlRImEZJJI13fUH0WkYUz8",
-      useTemplateId: "CPI7Wrk6vZQwf49n-w0or73w8p8Us81zgAaLbJDG7r4",
+      useTemplateId: "33fDuDry7DMC-jNE63pM-VWSibwKT_YfnKQnzEPNxNc",
       province: "山东",
       city: "烟台",
       horoscopeDate: '10-23',
@@ -71,8 +72,10 @@ export const config = {
         //{"type": "*生日", "name": "亮亮", "year": "2002", "date": "09-18"},
         //{"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "01-10"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "静静的", "year": "2002", "date": "10-23"},
-        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "02-21"},],
+         {"type": "生日", "name": "静静", "year": "2002", "date": "11-26"},
+        {"type": "生日", "name": "亮亮", "year": "2002", "date": "10-23"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "02-21"},
+      ],
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2021-02-21"},
