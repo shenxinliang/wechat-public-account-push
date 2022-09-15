@@ -27,7 +27,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oi0Yv5sMa6mfI7amPXol4anG3vXQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "SYLvqFOiqHHJfRZcSfJnw1HjHplu09LohejjYKuIdys",
+      useTemplateId: "6bBDp61oAUWTomH0fNJ5SxfgugCrsq7h0YfDrufuZGk",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -52,7 +52,7 @@ export const config = {
         // 在一起的日子
         {"keyword": "love_day", date: "2021-02-21"},
         // 结婚纪念日
-        //{"keyword": "marry_day", date: "2021-02-21"},
+        {"keyword": "marry_day", date: ""},
         // 退伍日
         {"keyword": "ex_day", date: ""},
       ]
@@ -60,7 +60,7 @@ export const config = {
     {
       name: "亮亮",
       id: "oi0Yv5qlRImEZJJI13fUH0WkYUz8",
-      useTemplateId: "SYLvqFOiqHHJfRZcSfJnw1HjHplu09LohejjYKuIdys",
+      useTemplateId: "6bBDp61oAUWTomH0fNJ5SxfgugCrsq7h0YfDrufuZGk",
       province: "山东",
       city: "烟台",
       horoscopeDate: '10-23',
