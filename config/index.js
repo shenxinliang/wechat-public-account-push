@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wxd075c7379ce04f72",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "4ced510b2960020161eaf5f4f536696f",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -23,42 +23,65 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "亲爱的刘静宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oi0Yv5sMa6mfI7amPXol4anG3vXQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "SYLvqFOiqHHJfRZcSfJnw1HjHplu09LohejjYKuIdys",
       // 所在省份
-      province: "广东",
+      province: "山东",
       // 所在城市
-      city: "肇庆",
+      city: "潍坊",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '11-26',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "www.baidu.com",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        //{"type": "*生日", "name": "静静", "year": "2002", "date": "10-22"},
+        //{"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "01-10"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "生日", "name": "静静", "year": "2002", "date": "11-26"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "02-21"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
+        {"keyword": "love_day", date: "2021-02-21"},
         // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
+        //{"keyword": "marry_day", date: "2021-02-21"},
         // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "ex_day", date: ""},
       ]
     },
     {
-      name: "老婆1",
+      name: "亮亮",
+      id: "oi0Yv5qlRImEZJJI13fUH0WkYUz8",
+      useTemplateId: "SYLvqFOiqHHJfRZcSfJnw1HjHplu09LohejjYKuIdys",
+      province: "山东",
+      city: "烟台",
+      horoscopeDate: '10-23',
+      horoscopeDateType: '今日',
+      openUrl: "https://baidu.com",
+      festivals: [ 
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        //{"type": "*生日", "name": "亮亮", "year": "2002", "date": "09-18"},
+        //{"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "01-10"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "生日", "name": "静静的", "year": "2002", "date": "10-23"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "02-21"},],
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2021-02-21"},
+        // 结婚纪念日
+        //{"keyword": "marry_day", date: "2021-02-21"},
+      ]
+    },
+    {
+      name: "2",
       id: "",
       useTemplateId: "",
       province: "",
@@ -70,19 +93,7 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
+      name: "3",
       id: "",
       useTemplateId: "",
       province: "",
